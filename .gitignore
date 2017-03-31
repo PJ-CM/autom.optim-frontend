@@ -9,7 +9,7 @@
 #con carpeta/**/*.ext
 #ignorando todos los archivos de extensión .ext, a cualquier nivel de la carpeta
 
-npm-debug.log
+**/npm-debug.log
 
 **/node_modules/
 __docs/

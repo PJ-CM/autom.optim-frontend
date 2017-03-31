@@ -10,7 +10,6 @@
 #ignorando todos los archivos de extensión .ext, a cualquier nivel de la carpeta
 
 # Ignorar todos los ficheros...
-*
-
+#*
 # ...excepto el fichero .gitignore
-!.gitignore
+#!.gitignore
