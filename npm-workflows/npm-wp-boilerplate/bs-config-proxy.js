@@ -14,9 +14,10 @@
  */
 
 module.exports = {
-    "files": './dist'
-    , "proxy": 'zackis.tuto.autom.optim-frontend-escuelait.net:8080'
-    , "host": 'zackis.tuto.autom.optim-frontend-escuelait.net'
+    //**, para que escuche a todos los niveles desde la raíz de la carpeta principal
+    "files": './**'
+    , "proxy": 'zackis.tuto.autom.optim-wp-escuelait.net:8080'
+    , "host": 'zackis.tuto.autom.optim-wp-escuelait.net'
     , "port": 8090
     , "open": 'external'
     //, "serveStatic": []

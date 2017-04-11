@@ -14,12 +14,17 @@
  */
 
 module.exports = {
-    "files": './dist'
-    , "proxy": 'zackis.tuto.autom.optim-frontend-escuelait.net:8080'
+    "files": './src'
+    , "server": true
+    , "startPath": './src'
+    /*, "server": {
+        baseDir: './src'
+    }
+    //, "startPath": './src'*/
     , "host": 'zackis.tuto.autom.optim-frontend-escuelait.net'
     , "port": 8090
     , "open": 'external'
-    //, "serveStatic": []
+    , "serveStatic": ['./src']
     , "reloadDelay": 300
     , "reloadDebounce": 500
     , "notify": true

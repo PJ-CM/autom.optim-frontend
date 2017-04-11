@@ -1,0 +1,15 @@
+#con /
+#ignorando el contenido de una carpeta
+#sin /
+#ignorando un archivo
+#con *.ext
+#ignorando archivos de extensión .ext
+#con carpeta/*.ext
+#ignorando archivos de extensión .ext, solamente, en el primer nivel de la carpeta
+#con carpeta/**/*.ext
+#ignorando todos los archivos de extensión .ext, a cualquier nivel de la carpeta
+
+# Ignorar todos los ficheros...
+#*
+# ...excepto el fichero .gitignore
+#!.gitignore

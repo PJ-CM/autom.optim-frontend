@@ -14,7 +14,7 @@
  */
 
 module.exports = {
-    "files": './dist'
+    "files": './src'
     , "proxy": 'zackis.tuto.autom.optim-frontend-escuelait.net:8080'
     , "host": 'zackis.tuto.autom.optim-frontend-escuelait.net'
     , "port": 8090
